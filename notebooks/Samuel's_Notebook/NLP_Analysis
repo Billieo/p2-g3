@@ -1,0 +1,62 @@
+{
+ "metadata": {
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.5"
+  },
+  "orig_nbformat": 2,
+  "kernelspec": {
+   "name": "python3",
+   "display_name": "Python 3",
+   "language": "python"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2,
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stderr",
+     "text": [
+      "[nltk_data] Downloading package vader_lexicon to\n[nltk_data]     /Users/samuelarciniega/nltk_data...\n[nltk_data]   Package vader_lexicon is already up-to-date!\n"
+     ]
+    }
+   ],
+   "source": [
+    "import os\n",
+    "import pandas as pd\n",
+    "from pathlib import Path\n",
+    "from newsapi import NewsApiClient\n",
+    "from dotenv import load_dotenv\n",
+    "from nltk.corpus import stopwords, reuters\n",
+    "load_dotenv()\n",
+    "import nltk as nltk\n",
+    "nltk.download('vader_lexicon')\n",
+    "from nltk.sentiment.vader import SentimentIntensityAnalyzer\n",
+    "analyzer = SentimentIntensityAnalyzer()\n",
+    "\n",
+    "%matplotlib inline"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ]
+}
