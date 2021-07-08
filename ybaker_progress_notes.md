@@ -17,5 +17,7 @@ However, I realized the "- timedelta(5)" was how I needed to customize the time.
 7/5/21 - More progress today than any other. After newsApi access was allowed again this afternoon, I began pulling 13 days of data for my telsa_correlation section. I edited and completed the 3 and 6 days of correlation data. 
 Completed the LSTM stock prediction section of the project, but it was not used as a ML model for NLP.
 
+7/7/21 - wrapping things up. Things to remember:
+LSTM networks are well-suited to classifying, processing and making predictions based on time series data, since there can be lags of unknown duration between important events in a time series.
 
 
