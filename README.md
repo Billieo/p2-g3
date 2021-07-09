@@ -54,4 +54,4 @@ My presentation is base on the analysis of the financial sector.
     
 
 # Conclusion   
-    Based on our analysis, we can infer that
+    Base on our analysis, we can infer that
