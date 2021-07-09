@@ -35,7 +35,7 @@ Pull in data through api and csv, clean the data, dropped null, rename columns a
 
 ## Tech Analysis
 * The first model in my analysis was predicated around the NEWSAPI and Google's Returns. I built this model by creating daily averages based on compound scores regarding specific headlines. This model used the headline "Advertising" due to Google's 80% of its revenue on its advertising business. Overall, the constraints from the NEWSAPI prove to be a road block in producing a accurate ML model. 
-![NLP & GOOGLE](Google.png)
+![NLP & GOOGLE](notebooks/Google.png)
 
 * The second model is an LSTM based model. It utilized S&P500's closing price to predict Apple's closing price. We did experiment with multiple window sizes but chose the 6 day window size. The model produced some level of accuracy between the months of February and March, but toward April we begin to see the divergence. This model could have been improved by utilizing a different feature instead of the S&P500 (A population set)
 ![Apple & S&P500](appleplot.png)
