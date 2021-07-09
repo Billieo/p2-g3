@@ -2,6 +2,7 @@ Yolanda Baker Progress notes
 (some notes written by hand and transcribed here at a later date. I can't help that I'm old school.)
 
 
+first half of project: To summarize, it took a few days to receive my Twitter developer account, so I could use their API. Long story short, I couldn't get the data to work with the topics I had, so I dropped that portion of the project. 
 
 7/4/21 - Had a productive meeting with Bilikisu and Samuel. I think we've broken the wall of confusion and are now focused on building sentiment dataframes to create graphs.
 

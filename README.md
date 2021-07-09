@@ -18,7 +18,7 @@ Cushing, OK WTI Spot Price FOB, Daily [Cushing's Website](https://www.quandl.com
 
 Our world in data [our world in data Website](https://ourworldindata.org/)
 
-
+Google Docs presentation: https://docs.google.com/presentation/d/1iC6t7wNHQegqLx0QN4VlAqQdERtoBtwLsPdA7Dac9QM/edit?usp=sharing
 
 
 # Data cleaning process
@@ -26,8 +26,9 @@ Pull in data through api and csv, clean the data, dropped null, rename columns a
 
 # Analysis
 ## Auto Analysis
+I used Tesla, GM, and Ford in my analysis. 
 ## Auto Result
-    Yolanda area to fill out 
+To summarize, due to insufficient data, I had little confidence in the correlation result shown for Tesla and Inflation (approx. 32%). All LSTM models had poor results, regardless if the S&P 500 or COVID were the features, and the targets were all three auto makers. 
 ## Tech Analysis
 ## Tech Result
     Samuel area to fill out 
@@ -53,4 +54,4 @@ My presentation is base on the analysis of the financial sector.
     
 
 # Conclusion   
-    Base on our analysis we can infer that 
+    Based on our analysis, we can infer that
